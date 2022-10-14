@@ -1,0 +1,457 @@
+/* CSS FEITO PARAO DESKTOP */
+.container-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* cabeçalho */
+
+
+header {
+    background-color: black
+}
+
+.header-flex {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+header .logo {
+    height: 30px;
+    color: white;
+}
+
+header .header-busca {
+    color: white;
+    width: 600px;
+
+}
+
+header .menu-bars {
+    display: flex;
+    height: 25px;
+    color: white;
+}
+
+header .menu-bars-mobile {
+    display: none;
+    height: 25px;
+    color: white;
+}
+
+header .menu {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header input {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 25px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    background-image: url(/assets/images/search.svg);
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    background-size: 13px;
+}
+
+main {
+    background-color: black;
+}
+
+.submenuj {
+    background-color: #2F5598;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 35px;
+}
+
+
+
+.mostraEscondeMenu {
+    left: 0 !important;
+    opacity: 1 !important;
+    /* visível */
+}
+
+.submenu-links {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+section.submenu a {
+    font-family: "Roboto-Bold";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* banner */
+
+
+.bannermobile {
+    display: none;
+}
+
+.propagandas {
+    background-color: #2F5598;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+}
+
+
+div.container-grid h1 {
+    font-family: "Mouse-Memoirs";
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.produtos {
+    background-image: url(//images/bg.PNG);
+    background-size: 15%;
+}
+
+.row {
+    padding-top: 7.5px;
+}
+
+.col-12 {
+    padding: 7.5px;
+}
+
+.card {
+    width: 262px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.card-title {
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+}
+
+p.card-text.oferta {
+    font-family: 'Roboto-Bold';
+    color: #2f5598
+}
+
+p.card-text {
+    font-family: 'Roboto-Bold';
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.card-text del {
+    color: #FF0000
+}
+
+span.badge {
+    font-weight: 400;
+    background-color: #FF0000;
+    font-size: 1em;
+}
+
+span.badge.enfase {
+    font-family: "Roboto-Regular";
+    margin-top: 10px;
+    width: 215px;
+    font-size: 15px;
+    background-color: #2F5598;
+    text-transform: uppercase;
+}
+
+.btn-light {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #000000;
+    width: 210px;
+    height: 33px;
+    font-family: 'Roboto-Bold';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.institucional {
+    background-color: #d9d9d9;
+}
+
+.container.institucional {
+    display: flex;
+    padding: 0;
+}
+
+.informacoes {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.informacoes p {
+    width: 305px;
+}
+
+.informacoes-recuo {
+    text-indent: 25px;
+}
+
+.informacoes h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto-bold';
+}
+
+.icone-institucional {
+    height: 20px;
+    margin: 5px;
+}
+
+.segunda-linha {
+    margin-top: -18px;
+    text-indent: 25px;
+}
+
+.institucionalmobile {
+    display: none;
+}
+
+footer {
+    background-color: #2f5598;
+    height: 65px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    font-family: 'Roboto-Regular';
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* DESKTOP tablets 992px - 1199px */
+
+@media all and (max-width: 1199px) {
+
+    .container,
+    .container-grid {
+        max-width: 980px;
+    }
+
+    header .header-busca {
+        color: white;
+        width: 400px;
+    }
+
+    .bannermobile {
+        display: none;
+    }
+
+    .mapa {
+        display: none;
+    }
+}
+
+/* TABLETS tablets 768px - 991px*/
+@media all and (max-width: 991px) {
+
+    .container,
+    .container-grid {
+        max-width: 768px;
+    }
+
+    header .logo {
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .bannermobile {
+        display: none;
+    }
+
+    header .header-busca {
+        color: white;
+        width: 260px;
+    }
+
+    .institucionalmobile {
+        display: none;
+    }
+
+}
+
+
+/* SMARTPHONES celulares 0 - 767px */
+@media all and (max-width: 767px) {
+
+    header .logo {
+        width: 200px;
+        margin-left: 5px;
+    }
+
+    header .header-busca {
+        display: none;
+    }
+
+    header .menu-bars {
+        display: flex;
+        height: 20px;
+    }
+
+    header .menu-bars-mobile {
+        display: flex;
+        height: 20px;
+    }
+
+    /* banner mobile*/
+
+    .bannermobile {
+        display: contents;
+    }
+
+    /* centraliza a informação do banner */
+    .bannermobile .banner-info-box {
+        display: contents;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        background-image: url(//images/bannermobile.PNG);
+    }
+
+    .bannermobile .banner-info .info-title {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .propagandasmobile {
+        background-color: #2F5598;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 35px;
+        padding: 5px;
+    }
+
+    .spanmobile {
+        background-color: white;
+        height: 35px;
+    }
+
+    div.container-grid.mobile {
+        display: flex;
+        justify-content: space-around;
+        padding: 2px;
+    }
+
+    .btn-primary {
+        color: white;
+        background-color: #2F5598;
+        border: #2F5598;
+        width: 90px;
+        height: 30px;
+        font-family: 'Roboto-Bold';
+        font-size: 10px;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+
+    .propagandas {
+        display: none;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .submenuj {
+        position: fixed;
+        /* referência viewport */
+        top: 0px;
+        /* coordenadas de posicinoamento */
+        left: -80%;
+        z-index: 100;
+        /* controle de camada */
+
+        opacity: 0;
+        /* invisível  */
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 80%;
+        height: 100%;
+        padding: 150px 50px;
+        background-color: rgba(47, 85, 152, 0.90);
+        transition: left 0.4s, opacity 0.5s;
+    }
+
+    .submenuj a {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-left: 2px dotted #AAB0AE;
+        font-size: 1rem;
+    }
+
+    .institucional {
+        display: none;
+    }
+
+    .institucionalmobile {
+        display: contents;
+        background-color: #d9d9d9;
+        height: 155px;
+    }
+
+    .container.institucionalmobile {
+        display: flex;
+        padding: 0;
+    }
+
+    div.informacoes {
+        display: block;
+        width: 80%;
+    }
+
+}
